@@ -4,5 +4,9 @@
 (println "Hello Clojure")
 
 (print "What is your name? ")
+
 (flush)
 (def yourname (read-line))
+
+(print "Hello ")
+(println yourname)
